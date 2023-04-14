@@ -1,4 +1,6 @@
 .home {
+    background-image: linear-gradient(to bottom,#5d0b16 ,rgb(234, 237, 237),#5d0b16);
+
     display: flex;
     justify-content: center;
     margin-left: auto;
