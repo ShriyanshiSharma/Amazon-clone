@@ -1,10 +1,10 @@
 .home {
     background-image: linear-gradient(to bottom,#5d0b16 ,rgb(234, 237, 237),#5d0b16);
-
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    /* width: 100%; */
     max-width: 1500px;
   }
   .home__image {
@@ -16,7 +16,9 @@
 
   .home__row {  
     display: flex; 
+    flex-wrap: wrap;
     z-index: 1; 
     margin-left: 5px;  
     margin-right: 5px;
+    justify-content: center;
   }

@@ -1,0 +1,44 @@
+.footer{
+    margin-top: 50px;
+    background-color: #39030b;
+    color: white;
+}
+.footer__0{
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer__head{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.foot__1{
+    padding-top: 20px;
+}
+
+.footer  ul{
+    list-style: none;
+    font-size: 14px;
+}
+.footer__base{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__base h5{
+    text-align: center;
+}
+.base__1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.base__1 p{
+    padding: 10px;
+}
+
+
+

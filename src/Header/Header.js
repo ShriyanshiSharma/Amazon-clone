@@ -17,7 +17,7 @@ function Header() {
   }
 
   return (
-    <div className="header">
+    <div className="header" id='header'>
       <Link to="/">
         <img
           className="header__logo"
