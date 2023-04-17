@@ -22,8 +22,13 @@ app.use(express.json());
 // --API ROUTES 
 
 
+// http://127.0.0.1:5001/clone-d822c/us-central1/api
+
+
 app.get("/" ,(request,response) => response.status(200).send("hello world"))
-app.post('/payment/create')
+app.post('/payment/create',async(request,response) => {
+
+})
 // -- LISTEN COMMAND 
 
 exports.api = functions.https.onRequest(app)
